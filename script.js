@@ -65,16 +65,3 @@ document.write(linebreak);
 
 // assignment-compare three numbers and max as result with ternary operator
 
-var count;
-document.write("Starting loop");
-document.write(linebreak);
-for(count=0;count<10;count++){
-    document.write(count);
-    document.write("<br/>");
-}
-document.write("loop stopped!");
-
-const person={name:"ajay",lname:"chauhan",age:25};
-for(let x in person){
-    console.log("person details: "+x+"="+person[x]);
-}
