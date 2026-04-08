@@ -1,5 +1,5 @@
-// document object is property of window object
-/*const result = document.getElementById("para");
+ document object is property of window object
+const result = document.getElementById("para");
 console.log(result);
 result.innerHTML= "my self ";
 result.title="myname";
@@ -13,26 +13,26 @@ result3[1].innerText = "my paragraph";
 const test = document.querySelector("ul li nth-child(3");
 const test2 = document.querySelectorAll("ul li");*/
 
-// const element = document.getElementById("myH1");
-// let text = element.getAttribute("class");
-// document.getElementById("demo").innerHTML = text;
+ const element = document.getElementById("myH1");
+ let text = element.getAttribute("class");
+ document.getElementById("demo").innerHTML = text;
 
-// function myFunction(){
-//     document.getElementById("myH1").setAttribute("class","democlass");
-// }
-// const heading=document.createElement("h2");
-// const bodytag=document.getElementsByTagName("body");
-// bodytag[0].append(heading);//last position
-// bodytag.prepend()//starting position insertion
-// bodytag.before()//adds before the node
-// bodytag.after()//adds after the node
-// Node.remove()
+ function myFunction(){
+     document.getElementById("myH1").setAttribute("class","democlass");
+ }
+ const heading=document.createElement("h2");
+ const bodytag=document.getElementsByTagName("body");
+ bodytag[0].append(heading);//last position
+ bodytag.prepend()//starting position insertion
+ bodytag.before()//adds before the node
+ bodytag.after()//adds after the node
+ Node.remove()
 
-// function practice(){
-//     document.open();
-//     document.write("<h1>PRACTICE</h2>");
-//     document.close();
-// }
+ function practice(){
+    document.open();
+     document.write("<h1>PRACTICE</h2>");
+     document.close();
+ }
 function onMouseOver(){
     console.log("mouse over");
 }
