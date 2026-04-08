@@ -1,4 +1,4 @@
- document object is property of window object
+ //document object is property of window object
 const result = document.getElementById("para");
 console.log(result);
 result.innerHTML= "my self ";
@@ -11,7 +11,7 @@ result3[1].style.color = "blue";
 result3[1].innerText = "my paragraph";
 
 const test = document.querySelector("ul li nth-child(3");
-const test2 = document.querySelectorAll("ul li");*/
+const test2 = document.querySelectorAll("ul li");
 
  const element = document.getElementById("myH1");
  let text = element.getAttribute("class");
@@ -23,10 +23,10 @@ const test2 = document.querySelectorAll("ul li");*/
  const heading=document.createElement("h2");
  const bodytag=document.getElementsByTagName("body");
  bodytag[0].append(heading);//last position
- bodytag.prepend()//starting position insertion
- bodytag.before()//adds before the node
- bodytag.after()//adds after the node
- Node.remove()
+ bodytag.prepend();//starting position insertion
+ bodytag.before();//adds before the node
+ bodytag.after();//adds after the node
+ Node.remove();
 
  function practice(){
     document.open();
@@ -35,11 +35,11 @@ const test2 = document.querySelectorAll("ul li");*/
  }
 function onMouseOver(){
     console.log("mouse over");
-}
+};
 const x=document.querySelector("input");
 x.addEventListener("focus",onhandlefocus);
 x.addEventListener("blur",onhandleblur);
 
 function MyFunction(){
     
-}
+};
