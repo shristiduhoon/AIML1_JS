@@ -12,12 +12,20 @@
     
 </head>
 <body>
-   <h1>Grade calculator</h1>
-   <form action="#">
-    <input type="number" id="subject">
-   </form>
-   <button onclick="calculateResult()"> calculate result</button>
-   <div id="result"></div>
+   <h1>Employee system</h1>
+   <input id="name" placeholder="Employee name"><br><br>
+   <input id="id" placeholder="Employee id"><br><br>
+   <input id="sal" placeholder="Salary"><br><br>
+   <input id="dept" placeholder="Department name"><br><br>
+   
+   <button onclick="addEmployee()">ADD Employee</button>
+   <button onclick="displayEmployee()">Display Employee</button>
+   <button onclick="filterSalary()">Salary>50000</button>
+   <button onclick="totalSalary()">Toatal Salary</button>
+   <button onclick="avgSalary()">Average Salary</button>
+   <button onclick="countDepartment()">Count Department</button>
+   <div id="output"></div>
+
     <script src="./practice.js" type="text/javascript"></script>
 </body>
 </html>
